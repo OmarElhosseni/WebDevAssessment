@@ -1,0 +1,148 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  z-index: 2;
+  font-size: 56px;
+  line-height: 1;
+  letter-spacing: 0.26em;
+  font-weight: 300;
+  font-style: italic;
+  font-family: "freight-big-pro";
+  margin-top: auto;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 2;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 0.26em;
+  font-weight: 300;
+  /* font-style: italic; */
+  font-family: "Palatino Linotype";
+  margin-top: auto;
+  width: 60vw;
+}
+
+#top {
+  width: 100%;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  height: 100vh;
+  background: linear-gradient(
+    rgba(20,20,20, .5),
+    rgba(20,20,20, .5)),
+    url(../../assets/images/bridge.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    /* margin-bottom: 60px; */
+  }
+  .About {
+    padding-top: 60px;
+ 
+  }
+  .About img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .interest {
+    /* vertical-align: middle; */
+    align-items: center;
+    margin-left: 23vw;
+    width: 50vw;
+    display: inline-block;
+  }
+  .interest img {
+    /* vertical-align: middle; */
+    width: 110px;
+    height: 110px;
+    float: left;
+    margin-right: 50px;
+  }
+  .interest p {
+    font-size: 24px;
+    vertical-align: top;
+  }
+  .Interests {
+    margin-top : 0;
+    margin-bottom: 70px;
+  }
+
+  @media screen and (max-width: 670px) {
+    #top h1{
+      font-size: 29px;
+    }
+    .About h2{
+      font-size: 20px;
+      width: 100%;
+    }
+    .About {
+      height: 100%;
+    }
+    .interest img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .interest p{
+      text-align: center;
+    }
+    .interest {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  /* .Interests:hover {
+  -webkit-opacity: 0.25;
+  -moz-opacity: 0.25;
+  opacity: 0.25;
+  -webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease;
+  -ms-transition: all 3s ease;
+  -o-transition: all 3s ease;
+  transition: all 3s ease;
+  } */
+
+  .contact {
+    background-color: grey;
+    text-align: middle;
+    padding: 20px;
+    color: white;
+  }
+
+  .contact img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65px;
+    height: 65px;
+    vertical-align: bottom;
+  }
+
+  .contact p {
+    display: block;
+    float: center;
+    text-align:center;
+    font-size: 20px;
+    vertical-align: middle;
+  }
+  
+  
